@@ -1,122 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pythagorex - Popular Games & Services</title>
-  <link rel="stylesheet" href="styels.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetMirror | Movie Website</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <div class="logo-section">
-        <img src="/test website/Logo.jpg" alt="Categories Icon" class="categories-icon">
-        
-        <h1>Pythagorex</h1>
-      </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Search">
-        <button>🔍</button>
-      </div>
-      <div class="user-actions">
-        <button>My Purchases</button>
-        <button>$</button>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="popular-section">
-      <h2>Popular Games & Services</h2>
-      <div class="popular-cards">
-        <div class="card">
-          <img src="/test website/black myth.jpeg" alt="Best Offline Games">
-          <p>Best Offline Games</p>
+    <!-- Header Section -->
+    <header>
+        <a href="#" class="logo">NetMirror</a>
+        <nav class="nav">
+            <ul>
+                <li><a href="#movies-section">Movies</a></li>
+                <li><a href="#anime-section">Anime</a></li>
+                <li><a href="#kids-section">Kids</a></li>
+                <li><a href="#latest-section">Latest</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
         </div>
-        <div class="card">
-          <img src="/test website/Chatgpt.avif" alt="Chat GPT">
-          <p>Chat GPT</p>
-        </div>
-        <div class="card">
-          <img src="/test website/netflix.avif" alt="Netflix">
-          <p>Netflix</p>
-        </div>
-        <div class="card">
-          <img src="/test website/ms.avif" alt="Windows Office 365">
-          <p>Windows Office 365</p>
-        </div>
-      </div>
-    </section>
-    <section class="products-section">
-      <div class="filter-buttons">
-        <button>All Goods</button>
-        <button>Keys</button>
-        <button>Accounts</button>
-      </div>
-      <div class="products-grid">
-        <div class="product-card">
-          <img src="/test website/black myth.jpeg" alt="Black Myth: Wukong">
-          <div class="product-info">
-            <span class="badge">Offline Account</span>
-            <p>Offline account Black Myth: Wukong Deluxe Edition STEAM</p>
-            <p class="price">$3.5</p>
-            <button class="buy-button">Buy</button>
-          </div>
-        </div>
-        <div class="product-card">
-          <img src="https://graph.digiseller.ru/img.ashx?id_d=3343505&w=201&h=113&noanim=1" alt="Cyberpunk 2077">
-          <div class="product-info">
-            <span class="badge">Offline Account</span>
-            <p>Offline account Cyberpunk 2077 Premium Edition STEAM</p>
-            <p class="price">$3.5</p>
-            <button class="buy-button">Buy</button>
-          </div>
-        </div>
+    </header>
 
-        <div class="product-card">
-          <img src="https://graph.digiseller.ru/img.ashx?id_d=3562721&w=201&h=113&noanim=1" alt="Cyberpunk 2077">
-          <div class="product-info">
-            <span class="badge">Offline Account</span>
-            <p>RESIDENT EVIL 4 REMAKE DELUXE+SEPARATE</p>
-            <p class="price">$3.5</p>
-            <button class="buy-button">Buy</button>
-          </div>
-        </div>
-        <div class="product-card">
-          <img src="https://graph.digiseller.ru/img.ashx?id_d=3525336&w=201&h=113&noanim=1" alt="Cyberpunk 2077">
-          <div class="product-info">
-            <span class="badge">Offline Account</span>
-            <p>⭐⭕ Hogwarts LEGACY DELUXE EDITION (STEAM)LEGACY</p>
-            <p class="price">$3.5</p>
-            <button class="buy-button">Buy</button>
-          </div>
-        </div>
-        <div class="product-card">
-          <img src="/test website/Assian.png" alt="Assassin's Creed Valhalla">
-          <div class="product-info">
-            <span class="badge">Offline Account</span>
-            <p>Offline account Assassin's Creed Valhalla Deluxe Edition STEAM</p>
-            <p class="price">$3.5</p>
-            <button class="buy-button">Buy</button>
-          </div>
-        </div>
-        <div class="product-card">
-          <img src="https://graph.digiseller.ru/img.ashx?id_d=3264597&w=201&h=113&noanim=1" alt="Elden Ring">
-          <div class="product-info">
-            <span class="badge">Offline Account</span>
-            <p>Offline account Elden Ring Legendary Edition STEAM</p>
-            <p class="price">$3.5</p>
-            <button class="buy-button">Buy</button>
-          </div>
-        </div>
+    <!-- Main Content -->
+    <main>
+        <!-- Banner Section -->
+        <section class="banner" id="banner">
+            <div class="content active">
+                <img src="./pic/christmas_2012_new_6457-removebg-preview.png" alt="Movie Title" class="movie-title">
+                <h4>
+                    <span>2023</span>
+                    <span><i>12+</i></span>
+                    <span>2h 14min</span>
+                    <span>Romance</span>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, officiis dicta nemo pariatur excepturi perspiciatis inventore molestias.
+                </p>
+                <div class="button-group">
+                    <a href="#" class="btn"><i class="fa fa-play" aria-hidden="true"></i> Watch</a>
+                    <a href="#" class="btn"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+                </div>
+            </div>
+            <div class="carousel-box"></div>
+            <a href="#" class="play-trailer">
+                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+            </a>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
 
+        <!-- Movies Section -->
+        <section class="movies-list" id="movies-section">
+            <h2>Movies</h2>
+            <div class="movies-grid">
+                <!-- Movie Card -->
 
-        
-       
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk2zQSly59xAcBE-E14jFOPX2tdT3Nwmh_g&s" alt="Movie Title" class="movie-image">
+                    <div class="movie-details">
+                        <span class="top-up">OFFLINE ACCOUNT </span>
+                        <p class="price">2.5 $</p>
+                        <p class="description">b</p>
+                        <p class="sold">Sold: 316</p>
+                        <button class="buy-btn">Buy</button>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk2zQSly59xAcBE-E14jFOPX2tdT3Nwmh_g&s" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                    <button class="buy-btn">Buy</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk2zQSly59xAcBE-E14jFOPX2tdT3Nwmh_g&s" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                    <button class="buy-btn">Buy</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk2zQSly59xAcBE-E14jFOPX2tdT3Nwmh_g&s" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                    <button class="buy-btn">Buy</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk2zQSly59xAcBE-E14jFOPX2tdT3Nwmh_g&s" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                    <button class="buy-btn">Buy</button>
+                </div>
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCk2zQSly59xAcBE-E14jFOPX2tdT3Nwmh_g&s" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                    <button class="buy-btn">Buy</button>
+                </div>
+                
+            </div>
+        </section>
 
+        <!-- Anime Section -->
+        <section class="movies-list" id="anime-section">
+            <h2>Anime</h2>
+            <div class="movies-grid">
+                <!-- Movie Card -->
+                <div class="movie-card">
+                    <img src="/Pic/9162879.jpg" alt="Movie 1">
+                    <h3>Naruto Shippuden</h3>
+                    <p>Genre: Action</p>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="/Pic/One Piece.jpg" alt="Movie 2">
+                    <h3>One Piece</h3>
+                    <p>Genre: Drama</p>
+                </div>
+                <div class="movie-card">
+                    <img src="/Pic/OPM.jpg" alt="Movie 3">
+                    <h3>Movie Title 3</h3>
+                    <p>Genre: Comedy</p>
+                </div>
+                <div class="movie-card">
+                    <img src="/Pic/dragon-ball-1080x1920-19326.jpg" alt="Movie 4">
+                    <h3>Movie Title 4</h3>
+                    <p>Genre: Sci-Fi</p>
+                </div>
+                <div class="movie-card">
+                    <img src="./Pic/Upgrade your reality with a touch of Cyberpunk sophistication!.jpeg" alt="Movie 4">
+                    <h3>Movie Title 4</h3>
+                    <p>Genre: Sci-Fi</p>
+                </div>
+            </div>
+        </section>
 
-          
-      </div>
-    </section>
-  </main>
+        <!-- Kids Section -->
+         <section class="movies-list" id="kids-section">
+            <h2>Kids Section </h2>
+            <div class="movies-grid">
+                <!-- Movie Card -->
+                <div class="movie-card">
+                    <img src="./Pic/Spectacular Spider-Man 4K Wallpaper for Marvel Fans!.jpeg" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="/Pic/A2.jpeg" alt="Movie 2">
+                    <h3>Movie Title 2</h3>
+                    <p>Genre: Drama</p>
+                </div>
+                <div class="movie-card">
+                    <img src="/Pic/501df8d2-245d-4758-b8a8-c2f40d13e83e.jpeg" alt="Movie 3">
+                    <h3>Movie Title 3</h3>
+                    <p>Genre: Comedy</p>
+                </div>
+                <div class="movie-card">
+                    <img src="./Pic/Upgrade your reality with a touch of Cyberpunk sophistication!.jpeg" alt="Movie 4">
+                    <h3>Movie Title 4</h3>
+                    <p>Genre: Sci-Fi</p>
+                </div>
+                <div class="movie-card">
+                    <img src="./Pic/Upgrade your reality with a touch of Cyberpunk sophistication!.jpeg" alt="Movie 4">
+                    <h3>Movie Title 4</h3>
+                    <p>Genre: Sci-Fi</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Latest Section -->
+        <section class="movies-list" id="latest-section">
+            <h2>Latest Section</h2>
+            <div class="movies-grid">
+                <!-- Movie Card -->
+
+                <div class="movie-card" data-bg="./images/movie1-bg.jpg">
+                    <img src="./Pic/Spectacular Spider-Man 4K Wallpaper for Marvel Fans!.jpeg" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <p>Genre: Action</p>
+                </div>
+                <div class="movie-card" data-bg="./images/movie2-bg.jpg">
+                    <img src="./Pic/Spectacular Spider-Man 4K Wallpaper for Marvel Fans!.jpeg" alt="Movie 2">
+                    <h3>Movie Title 2</h3>
+                    <p>Genre: Drama</p>
+                </div>
+                <div class="movie-card" data-bg="./images/movie3-bg.jpg">
+                    <img src="./Pic/Spectacular Spider-Man 4K Wallpaper for Marvel Fans!.jpeg" alt="Movie 3">
+                    <h3>Movie Title 3</h3>
+                    <p>Genre: Comedy</p>
+                </div>
+                <div class="movie-card" data-bg="./images/movie4-bg.jpg">
+                    <img src="/Pic/501df8d2-245d-4758-b8a8-c2f40d13e83e.jpeg" alt="Movie 4">
+                    <h3>Movie Title 4</h3>
+                    <p>Genre: Sci-Fi</p>
+                </div>
+                <div class="movie-card">
+                    <img src="./Pic/Upgrade your reality with a touch of Cyberpunk sophistication!.jpeg" alt="Movie 4">
+                    <h3>Movie Title 4</h3>
+                    <p>Genre: Sci-Fi</p>
+                </div>
+            </div>
+            <!-- Background Display -->
+            <div class="card-bg"></div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
 </body>
 </html>
